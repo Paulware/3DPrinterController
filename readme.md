@@ -1,7 +1,7 @@
 3D Printer Controller
 
 Parts
-  ![$4 HBridge](https://github.com/Paulware/3DPrinterController/raw/master/images/HBridge.jpg width="100px")
+  ![$4 HBridge]<img src="https://github.com/Paulware/3DPrinterController/raw/master/images/HBridge.jpg" width="100px">
   <br>
   [Get $4 HBridge on ebay](http://www.ebay.com/itm/L298N-DC-Stepper-Motor-Dual-H-Bridge-Drive-Controller-Board-Module-for-Arduino-/380520063503?)
   
