@@ -5235,6 +5235,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+7" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+6" library="SparkFun" deviceset="VCC" device=""/>
+<part name="J2" library="pinhead" deviceset="PINHD-1X8" device="" value="D0_D7"/>
 </parts>
 <sheets>
 <sheet>
@@ -5257,7 +5258,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="R8" gate="G$1" x="153.67" y="38.1"/>
 <instance part="P+16" gate="1" x="162.56" y="38.1" rot="R180"/>
 <instance part="P+17" gate="1" x="162.56" y="27.94" rot="R180"/>
-<instance part="JP6" gate="G$1" x="-7.62" y="55.88" rot="R180"/>
+<instance part="JP6" gate="G$1" x="66.04" y="48.26"/>
 <instance part="J1" gate="A" x="185.42" y="83.82" rot="MR180"/>
 <instance part="IC1" gate="G$1" x="137.16" y="-24.13"/>
 <instance part="R1" gate="G$1" x="109.22" y="3.81"/>
@@ -5270,7 +5271,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="JP2" gate="G$1" x="69.85" y="69.85"/>
 <instance part="GND8" gate="1" x="82.55" y="80.01" rot="R180"/>
 <instance part="P+7" gate="1" x="91.44" y="69.85" rot="R270"/>
-<instance part="P+6" gate="1" x="3.81" y="55.88" rot="R270"/>
+<instance part="P+6" gate="1" x="44.45" y="48.26"/>
+<instance part="J2" gate="A" x="195.58" y="106.68" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -5356,7 +5358,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <segment>
 <pinref part="JP6" gate="G$1" pin="1"/>
 <pinref part="P+6" gate="1" pin="VCC"/>
-<wire x1="3.81" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -5678,6 +5680,62 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <label x="114.3" y="15.24" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <junction x="114.3" y="3.81"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="GPA7"/>
+<pinref part="J2" gate="A" pin="1"/>
+<wire x1="193.04" y1="96.52" x2="173.99" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="GPA6"/>
+<pinref part="J2" gate="A" pin="2"/>
+<wire x1="193.04" y1="99.06" x2="173.99" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="GPA5"/>
+<pinref part="J2" gate="A" pin="3"/>
+<wire x1="193.04" y1="101.6" x2="173.99" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="GPA4"/>
+<pinref part="J2" gate="A" pin="4"/>
+<wire x1="193.04" y1="104.14" x2="173.99" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="GPA3"/>
+<pinref part="J2" gate="A" pin="5"/>
+<wire x1="193.04" y1="106.68" x2="173.99" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="GPA2"/>
+<pinref part="J2" gate="A" pin="6"/>
+<wire x1="193.04" y1="109.22" x2="173.99" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="GPA1"/>
+<pinref part="J2" gate="A" pin="7"/>
+<wire x1="193.04" y1="111.76" x2="173.99" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="GPA0"/>
+<pinref part="J2" gate="A" pin="8"/>
+<wire x1="193.04" y1="114.3" x2="173.99" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

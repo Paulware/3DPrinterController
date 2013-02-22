@@ -7,6 +7,10 @@ Parts
   
 Online videos:
   [Prototype](http://www.youtube.com/watch?v=m45CU5rBINc)    
+
+Project Status
+* Initial Creation 2/18/2013
+* Ordered Updated board from Iteadstudio 2/22/2013
   
 Questions/Comments
   paulware@hotmail.com
